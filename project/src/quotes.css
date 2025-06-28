@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: transparent;
+}
+
+.floating-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 12px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  width: 220px;
+  font-size: 14px;
+  z-index: 9999;
+  backdrop-filter: blur(5px);
+}
+
+.quote {
+  margin: 0 0 5px 0;
+  font-style: italic;
+}
+
+.author {
+  margin: 0;
+  text-align: right;
+  font-size: 12px;
+}
